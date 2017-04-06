@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FullIme - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Script1.res" /d "_DEBUG" "G:\输入法\FullIme\Script1.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP578.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/FullIme.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\输入法\FullIme\CanUI.c"
+"G:\输入法\FullIme\ImeUI.c"
+"G:\输入法\FullIme\Main.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP578.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP579.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib imm32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/FullIme.pdb" /debug /machine:I386 /out:"Debug/FullIme.exe" /pdbtype:sept 
+".\Debug\CanUI.obj"
+".\Debug\ImeUI.obj"
+".\Debug\Main.obj"
+".\Debug\Script1.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP579.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+CanUI.c
+ImeUI.c
+Main.c
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/FullIme.bsc"  ".\Debug\CanUI.sbr" ".\Debug\ImeUI.sbr" ".\Debug\Main.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+FullIme.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
